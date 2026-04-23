@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.light {
+  background: #f4f6f9;
+  color: black;
+}
+
+.dark {
+  background: #121212;
+  color: rgb(35, 209, 252);
+}
+.patients-page {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form input {
+  padding: 8px;
+}
+
+.search {
+  margin-bottom: 15px;
+  padding: 8px;
+  width: 200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.patients-page {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* TABLE LIGHT */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  color: black;
+}
+
+/* TABLE DARK */
+.dark table {
+  background: #1e1e1e;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* DARK BORDER */
+.dark th, 
+.dark td {
+  border: 1px solid #444;
+}
